@@ -32,6 +32,7 @@ services:
       - .env
     environment:
       - VITE_API_URL=${VITE_API_URL}
+      - VITE_WS_URL=${VITE_WS_URL}
   
   postgres:
     image: postgres:14
